@@ -1,0 +1,21 @@
+{
+  "Name": "Crystalys",
+  "Description": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+  "Type": "Sword",
+
+  "MinimumDamage": 30,
+  "MaximumDamage": 45,
+  "Knockback": 1,
+  "Vampiric": 0.08,
+  "Speed": 0,
+  "Defense": 0,
+  "MineDropVar": 111,
+  "MineDropMinimumLevel": 101,
+  "ExtraSwingArea": 0,
+  "CritChance": 0.04,
+  "CritMultiplier": 3.4,
+  "CanPurchase": true,
+  "PurchaseFrom": "SecretShop",
+  "PurchasePrice": 50000,
+  "PurchaseRequirements": null
+}

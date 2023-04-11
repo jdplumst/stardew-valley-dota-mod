@@ -1,0 +1,29 @@
+{
+  "Shops": [
+
+      {
+        "ShopName": "SecretShop",
+        "StoreCurrency": "Money",
+        "CategoriesToSellHere":[ 
+          -98
+        ],
+        "PortraitPath": "assets/shopkeeper.png",
+        "Quote": "Welcome to the Secret Shop!",
+        "MaxNumItemsSoldInStore": 2147483647,
+        "DefaultSellPriceMultiplier": 1.0,
+        "ItemStocks": [
+          {
+            "ItemType": "Weapon",
+            "StockPrice": 50000,
+            "IsRecipe": false,
+            "ItemNames": [
+              "Crystalys"
+            ],
+            "FilterSeedsBySeason":false,
+            "Stock": 2147483647,
+            "MaxNumItemsSoldInItemStock": 2147483647,
+          }
+  
+        ]
+      }
+  ]}

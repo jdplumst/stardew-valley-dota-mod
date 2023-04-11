@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="11">
+ <properties>
+  <property name="AmbientLight" value="140 140 60"/>
+  <property name="Music" value="Upper_Ambient"/>
+  <property name="Warp" value="7 9 Desert 8 6"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine_desert" width="256" height="288"/>
+  <tile id="138">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,208,208,208,208,208,208,0,0,0,
+0,208,271,271,271,271,271,271,144,175,
+0,208,190,175,176,206,190,175,175,192,
+0,175,191,176,190,192,175,175,206,192,
+0,175,175,206,175,175,174,175,175,255,
+0,175,175,175,175,175,175,190,175,255,
+0,175,175,175,175,175,175,175,192,175,
+0,175,175,175,175,175,175,175,175,175
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="10" height="10">
+  <data encoding="csv">
+0,105,110,110,110,111,130,131,0,0,
+0,121,126,126,102,103,146,147,112,148,
+0,137,142,307,118,119,162,163,128,164,
+0,153,158,323,158,159,178,179,86,180,
+0,169,324,0,0,0,194,195,160,196,
+0,233,0,0,0,0,0,0,324,212,
+0,0,114,0,0,0,0,0,0,212,
+0,0,114,114,114,250,0,0,0,243,
+0,0,0,0,0,0,269,0,273,0,
+0,0,0,0,0,0,114,0,114,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="10" height="10">
+  <data encoding="csv">
+114,0,86,0,0,0,0,97,114,114,
+97,0,0,291,0,0,0,86,0,0,
+114,0,0,0,0,0,0,88,0,0,
+114,0,308,0,0,0,0,0,0,0,
+114,0,0,0,0,0,0,0,308,0,
+114,250,234,0,0,0,0,0,0,0,
+114,97,250,251,252,234,0,0,0,0,
+114,114,114,114,97,250,234,0,242,258,
+114,114,114,114,114,114,250,251,258,80,
+114,114,114,114,114,114,114,114,114,96
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,9,0,0,0,0,
+0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,9,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="1" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="SkullDoor"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" gid="308" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="SecretShop"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

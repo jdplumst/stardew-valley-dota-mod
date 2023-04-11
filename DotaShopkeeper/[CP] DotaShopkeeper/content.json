@@ -1,0 +1,53 @@
+{
+    "Format": "1.29.1",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/DotaShopkeeper",
+            "FromFile": "assets/sprites.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/DotaShopkeeper",
+            "FromFile": "assets/portraits.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/DotaShopkeeper",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/DotaShopkeeper",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "DotaShopkeeper": "adult/polite/neutral/neutral/male/not-datable//Other/fall 8//SkullCave 8 6/Shopkeeper"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "DotaShopkeeper": "A fine artifact! You have my thanks, @./109 120 124 347/I will always appreciate quality materials./-2 -28/This...is not my area of expertise./-4 -5 -6 -7 -25/Thank you.// "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Dobson0": "I can't believe I am about to be married!$h",
+                "Dobson1": "I hope I don't get cold feet"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/SkullCave",
+            "FromFile": "assets/skullcave.tmx",
+            "ToArea": { "X": 0, "Y": 0, "Width": 10, "Height": 10 }
+        }
+    ]
+}

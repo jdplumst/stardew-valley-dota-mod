@@ -1,0 +1,10 @@
+{
+  "Name": "Dota Items",
+  "Author": "Zerard",
+  "Version": "1.0.0",
+  "Description": "Adds additional items via JsonAssets.",
+  "UniqueID": "Zerard.DotaItems",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "Introduction": "What's this?$11#$b#A new hero joins the fray! I am the Shopkeeper.$k#$e#Come to me for weapons and artifacts!$h",
+    "danceRejection": "I'm not one to dance.$k",
+    
+    "Mon4": "Tell me, @...#$q 01/02 Mon_old#What does a hero truly need?#$r 01 10 Mon_cor#Speed beyond measure..#$r 01 10 Mon_cor#Might to overpower any foe!.#$r 01 10 Mon_cor#Inner cunning!#$r 02 -10 Mon_cor#How would I know?",
+    "Mon_old": "$p 01#That is for you to decide.$k|Hey @. You already know the answer.$h",
+    "Mon_cor": "Of course! If that is what you have decided.$h",
+    "Mon_wro": "Humor an old Shopkeeper, won't you?$h",
+    "Mon2": "Greetings!$h#$e#Let me know if you need anything.$k",
+    "Mon6": "Good to see you!$h#$e#I have plenty to sell if you need anything.$h",
+    "Mon8": "Got a new weapon recently, and I thought it would be perfect for you.#$e#...#$e#I can't provide any discounts, though.$h",
+    "Mon10": "Now there's a hero!$h#$e$#Good to see you, my friend.$k",
+    
+	"give_pendant": "No thank you. $k"
+}
