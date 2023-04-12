@@ -1,10 +1,10 @@
 {
     "Name": "Dota Shopkeeper",
-    "Author": "Zerard",
+    "Author": "Zerard, CheriseBombe, Jaydee & hottub99",
     "Version": "1.0.0",
-    "Description": "Adds the shopkeeper from dota2. Requires ZsCustomItems",
+    "Description": "Adds the shopkeeper from dota2.",
     "UniqueID": "Zerard.DotaShopkeeper",
-    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "UpdateKeys": [], 
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
