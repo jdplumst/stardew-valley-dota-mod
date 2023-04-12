@@ -1,0 +1,10 @@
+{
+  "Name": "Boots of Speed",
+  "Description": "Fleet footwear, increasing movement.",
+  "Price": 200,
+  "Defense": 1,
+  "Immunity": 1,
+  "PurchaseFrom": "Marlon",
+  "PurhcasePrice": 200,
+  "PurchaseRequirements": null
+}
