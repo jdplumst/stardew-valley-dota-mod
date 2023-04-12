@@ -14,14 +14,25 @@
         "ItemStocks": [
           {
             "ItemType": "Weapon",
-            "StockPrice": 50000,
+            "StockPrice": 25000,
             "IsRecipe": false,
             "ItemNames": [
               "Crystalys"
             ],
             "FilterSeedsBySeason":false,
             "Stock": 2147483647,
-            "MaxNumItemsSoldInItemStock": 2147483647,
+            "MaxNumItemsSoldInItemStock": 2147483647
+          },
+          {
+            "ItemType": "Weapon",
+            "StockPrice": 10000,
+            "IsRecipe": false,
+            "ItemNames": [
+              "Blade of Alacrity", "Ogre Axe", "Staff of Wizardry"
+            ],
+            "FilterSeedsBySeason":false,
+            "Stock": 2147483647,
+            "MaxNumItemsSoldInItemStock": 2147483647
           }
   
         ]

@@ -1,0 +1,20 @@
+{
+  "Name": "Staff of Wizardry",
+  "Description": "A staff of magical powers passed down from the eldest mages.",
+  "Type": "Club",
+  "MinimumDamage": 25,
+  "MaximumDamage": 35,
+  "Knockback": 1.8,
+  "Speed": -8,
+  "Defense": 0,
+  "Accuracy": 0,
+  "MineDropVar": 111,
+  "MineDropMinimumLevel": 101,
+  "ExtraSwingArea": 100,
+  "CritChance": 0.02,
+  "CritMultiplier": 3.0,
+  "CanPurchase": true,
+  "PurchaseFrom": "SecretShop",
+  "PurchasePrice": 10000,
+  "PurchaseRequirements": null
+}

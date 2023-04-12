@@ -1,12 +1,12 @@
 {
     "Name": "SecretShop",
-    "Author": "Zerard",
+    "Author": "Zerard, CheriseBombe, Jaydee & hottub99",
     "Version": "1.0.0",
     "Description": "Adds a Dota secret shop.",
     "UniqueID": "Zerard.SecretShop",
      "UpdateKeys": [],
     "MinimumApiVersion": "3.0.0",
     "ContentPackFor": {   
-        "UniqueID": "Cherry.ShopTileFramework",
+        "UniqueID": "Cherry.ShopTileFramework"
      }  
   }

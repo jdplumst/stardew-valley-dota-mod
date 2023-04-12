@@ -1,0 +1,20 @@
+{
+  "Name": "Ogre Axe",
+  "Description": "You grow stronger just by holding it.",
+  "Type": "Club",
+  "MinimumDamage": 25,
+  "MaximumDamage": 35,
+  "Knockback": 2.15,
+  "Speed": -8,
+  "Defense": 0,
+  "Accuracy": 0,
+  "MineDropVar": 111,
+  "MineDropMinimumLevel": 101,
+  "ExtraSwingArea": 0,
+  "CritChance": 0.02,
+  "CritMultiplier": 3.0,
+  "CanPurchase": true,
+  "PurchaseFrom": "SecretShop",
+  "PurchasePrice": 10000,
+  "PurchaseRequirements": null
+}
